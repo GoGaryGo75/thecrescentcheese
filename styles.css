@@ -1,0 +1,15 @@
+body{
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 50px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    padding: 0 40px;
+    grid-template-areas: ". content content content content .";
+}
+.content {
+    grid-area: content;
+}
